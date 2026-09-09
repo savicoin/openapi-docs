@@ -43,11 +43,11 @@ openapi-spot-docs/
 
    ```java
    // 初始化客户端（公共API无需认证）
-   ApiClient publicClient = new ApiClient("https://openapi-k.tbbit.xyz");
+   ApiClient publicClient = new ApiClient("https://open.icsotic.com");
    
    // 初始化客户端（私有API需要认证）
    ApiClient privateClient = new ApiClient(
-       "https://openapi-k.tbbit.xyz", 
+       "https://open.icsotic.com",
        "your-access-key", 
        "your-secret-key"
    );

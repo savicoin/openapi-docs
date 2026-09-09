@@ -27,7 +27,7 @@ def get_order_details(url,method:str, api_Access, api_secret, get_order_details_
 
 
 if __name__ == '__main__':
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     accessKey = "your-access-key"
     secretKey = "your-secret-key"
     current_milliseconds = str(int(time.time() * 1000))

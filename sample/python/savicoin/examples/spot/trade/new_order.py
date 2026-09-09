@@ -27,7 +27,7 @@ def create_new_order(url,method:str, api_access, api_secret, create_new_order_pa
 
 if __name__ == '__main__':
     # 指定币对创建订单
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     AccessKey = "your-access-key"
     secretKey = "your-secret-key"
 

@@ -6,7 +6,7 @@ Savicoin 交易平台 API 提供了程序化交易的能力，允许开发者通
 
 ## 2. 服务地址
 
-**API 基础 URL**: `https://openapi-k.tbbit.xyz`
+**API 基础 URL**: `https://open.icsotic.com`
 
 ## 3. 认证机制
 

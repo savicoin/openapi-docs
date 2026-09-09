@@ -22,7 +22,7 @@ def get_all_quotation_tickers(url, method: str, headers=None, payload=None):
 
 if __name__ == '__main__':
     # 5.4 获取所有交易对行情
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     api_url = base_api_url + "/spot/v1/p/quotation/tickers"
     resp_json = get_all_quotation_tickers(api_url, "GET", None, None)
     assert resp_json["code"] == 0

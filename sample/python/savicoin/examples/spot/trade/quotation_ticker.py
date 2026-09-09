@@ -21,7 +21,7 @@ def get_quotation_ticker(url, method: str, headers=None, payload=None):
 
 if __name__ == '__main__':
     # 获取24小时行情(单一交易对)
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     api_url = base_api_url + "/spot/v1/p/quotation/trend/ticker"
     payload = {
         "symbol": "BTC_USDT"

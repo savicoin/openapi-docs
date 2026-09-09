@@ -83,7 +83,7 @@ public class DealQueryTest {
     }
 
     public static void main(String[] args) throws SavicoinApiException {
-        apiClient = new ApiClient("https://openapi-k.tbbit.xyz");
+        apiClient = new ApiClient("https://open.icsotic.com");
         DealQueryTest dealQueryTest = new DealQueryTest();
 
         dealQueryTest.testGetDealData();

@@ -12,7 +12,7 @@ def get_spot_marketing_time(url, method: str):
 
 if __name__ == '__main__':
     # 获取系统时间接口
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     api_url = base_api_url + "/spot/v1/p/time"
     resp_json=get_spot_marketing_time(api_url, "GET")
     assert resp_json["code"] == 0

@@ -21,7 +21,7 @@ def batch_create_order(createOrderUrl, method:str,api_access, api_secret, create
 
 if __name__ == '__main__':
     # 指定币对批量创建订单
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     accessKey = "your-access-key"
     secretKey = "your-secret-key"
 

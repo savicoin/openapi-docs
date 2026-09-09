@@ -25,7 +25,7 @@ public class SpotBalanceTest {
     private static final Logger log = LoggerFactory.getLogger(SpotBalanceTest.class);
     private static final ObjectMapper objectMapper = new ObjectMapper();
     // //替换自己的 accessKey 和 secretKey
-    private static final String BASE_URL = "https://openapi-k.tbbit.xyz";
+    private static final String BASE_URL = "https://open.icsotic.com";
     private static final String ACCESS_KEY = "your-access-key";
     private static final String SECRET_KEY = "your-secret-key";
 

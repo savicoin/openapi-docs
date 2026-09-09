@@ -20,8 +20,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class WebsocketTest {
     // 服务器地址
-    private static final String HOST = "https://openapi-k.tbbit.xyz";
-    private static final String WS_HOST = "wss://openapi-k.tbbit.xyz";
+    private static final String HOST = "https://open.icsotic.com";
+    private static final String WS_HOST = "wss://open.icsotic.com";
     // API凭证
     private static final String ACCESS_KEY = "your-access-key";
     private static final String SECRET_KEY = "your-secret-key";

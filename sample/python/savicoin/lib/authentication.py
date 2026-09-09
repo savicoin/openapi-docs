@@ -68,7 +68,7 @@ def getWssAutoTokenByApi(url, headers):
 
 
 if __name__ == '__main__':
-    openApiBaseUrl = "https://openapi-k.tbbit.xyz"
+    openApiBaseUrl = "https://open.icsotic.com"
     AccessKey = "your-access-key"
     secretKey = "your-secret-key"
     # 定义一个函数用于对请求参数进行排序
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     logging.info("%s",responses.text)
 
     # # 获取wss token
-    # getTokenUrl = "https://openapi-k.tbbit.xyz/spot/v1/u/ws/token"
+    # getTokenUrl = "https://open.icsotic.com/spot/v1/u/ws/token"
     # sendMessage = {
     #     "timestamp": current_milliseconds
     # }

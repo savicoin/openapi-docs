@@ -23,7 +23,7 @@ def get_balance_spot(url, method, accessKey, secretKey, params):
 
 
 if __name__ == '__main__':
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     accessKey = "your-access-key"
     secretKey = "your-secret-key"
 

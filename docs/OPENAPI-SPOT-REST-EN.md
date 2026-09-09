@@ -6,7 +6,7 @@ The Savicoin trading platform API provides programmatic trading capabilities, al
 
 ## 2. Service Address
 
-**API Base URL**: `https://openapi-k.tbbit.xyz`
+**API Base URL**: `https://open.icsotic.com`
 
 ## 3. Authentication Mechanism
 

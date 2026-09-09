@@ -17,7 +17,7 @@ def kline_data_subscription(wss_url, message_to_send):
 
 if __name__ == '__main__':
     # 5.1.2 K线数据订阅
-    wss_url = "wss://openapi-k.tbbit.xyz/spot/v1/ws/socket"
+    wss_url = "wss://open.icsotic.com/spot/v1/ws/socket"
     message_to_send = {
         "sub": "subKline",
         "symbol": "BTC_USDT",

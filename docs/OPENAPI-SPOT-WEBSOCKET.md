@@ -6,8 +6,8 @@ Savicoin 交易平台提供WebSocket接口，支持实时订阅行情数据和�
 
 ## 2. 服务地址
 
-- WebSocket基础URL: `wss://openapi-k.tbbit.xyz/spot/v1/ws/socket`
-- 获取用户认证Token URL: `https://openapi-k.tbbit.xyz/spot/v1/u/ws/token`
+- WebSocket基础URL: `wss://open.icsotic.com/spot/v1/ws/socket`
+- 获取用户认证Token URL: `https://open.icsotic.com/spot/v1/u/ws/token`
 
 ## 3. 认证机制
 

@@ -21,7 +21,7 @@ def batch_cancel_order(url,method:str, api_Access, api_secret, create_new_order_
 
 if __name__ == '__main__':
     # 指定订单号批量取消
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     accessKey = "your-access-key"
     secretKey = "your-secret-key"
 

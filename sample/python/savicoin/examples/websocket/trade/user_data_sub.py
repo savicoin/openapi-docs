@@ -37,8 +37,8 @@ def user_data_subscription(wss_url, AccessKey, secretKey, getTokenUrl, current_m
 if __name__ == '__main__':
     AccessKey = "your-access-key"
     secretKey = "your-secret-key"
-    getTokenUrl = "https://openapi-k.tbbit.xyz/spot/v1/u/ws/token"
-    wss_url = "wss://openapi-k.tbbit.xyz/spot/v1/ws/socket"
+    getTokenUrl = "https://open.icsotic.com/spot/v1/u/ws/token"
+    wss_url = "wss://open.icsotic.com/spot/v1/ws/socket"
 
     current_milliseconds = str(int(time.time() * 1000))
     message_to_send = {

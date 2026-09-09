@@ -72,6 +72,6 @@ if __name__ == "__main__":
         "sub": "subSymbol",
         "symbol": "BTC_USDT"
     }
-    wss_url = "wss://openapi-k.tbbit.xyz/spot/v1/ws/socket"
+    wss_url = "wss://open.icsotic.com/spot/v1/ws/socket"
 
     send_wss_message(wss_url, message_to_send)

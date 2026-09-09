@@ -6,8 +6,8 @@ Savicoin Trading Platform provides WebSocket interfaces that support real-time s
 
 ## 2. Service Address
 
-- WebSocket Base URL: `wss://openapi-k.tbbit.xyz/spot/v1/ws/socket`
-- User Authentication Token URL: `https://openapi-k.tbbit.xyz/spot/v1/u/ws/token`
+- WebSocket Base URL: `wss://open.icsotic.com/spot/v1/ws/socket`
+- User Authentication Token URL: `https://open.icsotic.com/spot/v1/u/ws/token`
 
 ## 3. Authentication Mechanism
 

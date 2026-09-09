@@ -21,7 +21,7 @@ def get_quotation_depth(url, method: str, headers=None, payload=None):
 
 if __name__ == '__main__':
     # 5.6 获取市场深度
-    base_api_url = "https://openapi-k.tbbit.xyz"
+    base_api_url = "https://open.icsotic.com"
     api_url = base_api_url + "/spot/v1/p/quotation/depth"
     payload = {
         "symbol": "BTC_USDT",

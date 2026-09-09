@@ -234,7 +234,7 @@ public class OrderHistoryQueryTest {
 
     public static void main(String[] args) throws SavicoinApiException {
         //替换自己的 accessKey 和 secretKey
-        apiClient = new ApiClient("https://openapi-k.tbbit.xyz",
+        apiClient = new ApiClient("https://open.icsotic.com",
                 "your-access-key",
                 "your-secret-key");
         OrderHistoryQueryTest historyTest = new OrderHistoryQueryTest();
